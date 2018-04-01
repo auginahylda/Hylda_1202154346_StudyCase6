@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.hylda_1202154346_studycase6.Adapter1">
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/awal"
+            android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="25dp"
+        android:id="@+id/editDaftarEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:hint="e-mail"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/editDaftarPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittext_background"
+        android:hint="new password"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/btnDaftar2"
+        android:onClick="btnDaftar2"
+        android:text="daftar"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        />
+
+</ScrollView>
